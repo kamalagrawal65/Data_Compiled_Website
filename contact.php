@@ -29,11 +29,11 @@
       				</div>
       			<div class="company_address">
 				     	<h3>My Information :</h3>
-						    	<p>Kamal Agrawal</p>
+						    	<p>Astitva Srivastava</p>
 						   		<p>A211 DBA Hall, NIT Rourkela</p>
 						   		<p>Odisha, India</p>
 				   		<p>Phone:9090538616</p>
-   						<p>Email: <span>kamalagrawal777@gmail.com</span></p>
+   						<p>Email: <span>AstitvaSrivastava777@gmail.com</span></p>
 				   		<p>Follow on: <span>Facebook</span>, <span>Twitter</span></p>
 				   </div>
 				</div>				

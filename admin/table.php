@@ -35,7 +35,7 @@
         //delete from request
         $query="delete from requests where requestid=$id";
         $dlt=mysqli_query($connection,$query);
-        //branch
+        /*//branch
         $query="select branchid from branch_table where branch='{$branch}'";
         $bresult=mysqli_query($connection,$query);
         $brow=mysqli_fetch_row($bresult);
@@ -49,12 +49,12 @@
         $brow=mysqli_fetch_row($bresult);
         $kindid=$brow[0];
         $query="UPDATE `kind_table` SET `counter`=counter+1 WHERE kindid=$kindid";
-        $bresult=mysqli_query($connection,$query);
+        $bresult=mysqli_query($connection,$query);*/
 
         //insert
         //add kkwyword insertion
         $query="INSERT INTO `posts`(`branchid`, `kindid`, `topic`, `shortinfo`, `longinfo`, `author`, `links`, `subtime`, `code_data`,`keywords`) VALUES (
-        $branchid,$kindid,'{$title}','{$shortinfo}','{$information}','{$author}','{$links}','{$timer}','{$coded}','{$keywords}')";
+        $branch,$kind,'{$title}','{$shortinfo}','{$information}','{$author}','{$links}','{$timer}','{$coded}','{$keywords}')";
         $iresult=mysqli_query($connection,$query);
     }
     

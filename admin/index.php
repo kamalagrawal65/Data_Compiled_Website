@@ -4,7 +4,7 @@
 ?>
 
 <h4>2.3.2 Version</h4>
-<pre><code class="lang-shell">    $ git clone https://github.com/kamalagrawal65/articleinfo.git yourfoldername
+<pre><code class="lang-shell">    $ git clone https://github.com/AstitvaSrivastava65/articleinfo.git yourfoldername
     $ cd yourfoldername
     $ npm install
     $ bower install

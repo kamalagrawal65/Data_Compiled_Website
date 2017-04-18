@@ -104,10 +104,27 @@ label.light {
           <input type="text" id="name" name="username" class="inp" required>
           
           <label for="kind">Category*</label>
-          <input type="text" id="kind" name="kind" class="inp" required>
+          <select name="kind" class="inp" required>
+            <option value="1">Interview Experience</option>
+            <option value="8">Programs</option>
+            <option value="7">Knowledge</option>
+            <option value="9">Products</option>
+            <option value="10">General Knowledge</option>
+            <option value="11">Sports</option>
+          </select>
+          <!-- <input type="text" id="kind" name="kind" class="inp" required> -->
           
           <label for="branch">Branch*</label>
-          <input type="text" id="branch" name="branch" class="inp" required>
+          <!-- <input type="text" id="branch" name="branch" class="inp" required> -->
+          <select name="branch" class="inp" required>
+            <option value="1">Computer Science</option>
+            <option value="2">Mechanical</option>
+            <option value="3">Civil</option>
+            <option value="5">Chemical</option>
+            <option value="10">Other</option>
+            <option value="8">Electrical</option>
+            <option value="9">Electronics</option>
+          </select>
           
         </fieldset>
         

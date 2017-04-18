@@ -43,11 +43,11 @@
 	   <div class="header-top-right">
 	   			<div class="social-icons">			
 		                <ul>
-		                	<li><a class="youtube" href="http://www.youtube.com" target="_blank"><span>Youtube</span></a></li>
-		                    <li><a class="facebook" href="http://www.facebook.com/kamal.rockz" target="_blank"><span>Facebook</span> </a></li>
-		                    <li><a class="twitter" href="http://www.twitter.com/kamalagrawal65" target="_blank"><span>Twitter</span> </a></li>
-		                    <li><a class="skype" href="http://www.skype.com/kamalagrawal777" target="_blank"><span>Skype</span> </a></li>
-		                    <li><a class="likedin" href="http://www.linkedin.com/kamalagrawal65" target="_blank"><span>Likedin</span> </a></li>
+		                	<li><a class="youtube" href="http://www.youtube.com/SriAstitva" target="_blank"><span>Youtube</span></a></li>
+		                    <li><a class="facebook" href="http://www.facebook.com/SriAstitva" target="_blank"><span>Facebook</span> </a></li>
+		                    <li><a class="twitter" href="http://www.twitter.com/SriAstitva" target="_blank"><span>Twitter</span> </a></li>
+		                    <li><a class="skype" href="http://www.skype.com/SriAstitva" target="_blank"><span>Skype</span> </a></li>
+		                    <li><a class="likedin" href="http://www.linkedin.com/in/SriAstitva" target="_blank"><span>Likedin</span> </a></li>
 		                    <div class="clear"></div>
 		                </ul>
 		 		    </div>   	   

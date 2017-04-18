@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <head>
-<title>Compiled</title>
+<title>Article Info</title>
 </head>
 <?php 
 	include("includes/header.php");
