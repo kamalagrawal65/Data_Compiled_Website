@@ -24,11 +24,12 @@
                                 	$query1="select * from branch_table";
                                 	$run=mysqli_query($connection,$query1);
                                 	while($running=mysqli_fetch_row($run)){
-                                		if($running[0]==$answer[5]) {
-                                			echo "<option selected value='{$running[0]}'>$running[1]</option>";
+                                        var_dump(array('running'=>$running,'answer'=>$answer));
+                                		if($running[1]==$answer[5]) {
+                                			echo "<option selected value='{$running[1]}'>$running[1]</option>";
                                         }
                                 		else
-                                			echo "<option value='{$running[0]}'>$running[1]</option>";
+                                			echo "<option value='{$running[1]}'>$running[1]</option>";
                                 	}
                                 ?>
                             </select>
@@ -43,11 +44,11 @@
                                 	$query1="select * from kind_table";
                                 	$run=mysqli_query($connection,$query1);
                                 	while($running=mysqli_fetch_row($run)){
-                                		if($running[0]==$answer[4]) {
-                                			echo "<option selected value='{$running[0]}'>$running[1]</option>";
+                                		if($running[1]==$answer[4]) {
+                                			echo "<option selected value='{$running[1]}'>$running[1]</option>";
                                         }
                                 		else
-                                			echo "<option value='{$running[0]}'>$running[1]</option>";
+                                			echo "<option value='{$running[1]}'>$running[1]</option>";
                                 	}
                                 ?>
                             </select>
